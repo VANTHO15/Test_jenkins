@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        echo 'ThoNV is here'
+        sh './jenkins/build.sh'
       }
     }
 
